@@ -1,0 +1,75 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto ;
+  background-color: #333;
+      justify-content: center; /* centers grid horizontally */
+  align-content: center;   /* centers grid vertically if container height is larger */
+  place-items: center;
+  /* gap: 3vw; */
+}
+
+
+.card {
+  width: 10vw;
+  height: 20vh;
+  background-color: #f1f1f1;
+  border: 2px solid #333;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative; /* only for the overlay inside */
+  margin: 1vw;
+}
+
+
+.card input {
+  display: none;
+}
+
+.card .details {
+  position: absolute; /* overlay floats above this card */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  max-height: 80vh;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+canvas {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+.card input:checked ~ .details {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+.card input:checked ~ .details {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.card .details label {
+  display: block;
+  text-align: right;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card .details p {
+  margin: 5px 0;
+  font-size: 0.9em;
+}
