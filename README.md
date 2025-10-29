@@ -93,21 +93,14 @@ Push to GitHub, then go to Render.com, connect your repo, and deploy 🚀
 
 👨‍🎓 Credits
 Team Members (Class XII PCM):
-
 Bhagyam Pathak
-
 Aftab Alam
-
 Hansvi Pandey
-
 Palak Singh
 
 Our Teachers:
-
 Mr. Vishal Srivastava (Physics)
-
 Mr. Anil Gaudh (Chemistry)
-
 Mr. Barbuddin Khan (Mathematics)
 
 School:
@@ -116,9 +109,6 @@ School:
 🖋 License
 This project is open-source and free to use for educational purposes.
 
-yaml
-Copy code
 
----
 
-Would you like me to include a **preview image section** at the top (e.g., “App Screenshot” area) — so it l
+
